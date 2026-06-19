@@ -1,6 +1,396 @@
-<p class="codepen" data-height="300" data-pen-title="vallartaa" data-default-tab="html,result" data-slug-hash="myRRgEP" data-user="Haziel-the-sans" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/Haziel-the-sans/pen/myRRgEP">
-  vallartaa</a> by Haziel (<a href="https://codepen.io/Haziel-the-sans">@Haziel-the-sans</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Departamento de lujo en venta en Puerto Vallarta, Jalisco. Condominio Marbella. 92 m², 2 recámaras, alberca, amueblado. $4,600,520 MXN." />
+  <meta name="keywords" content="departamento venta Puerto Vallarta, Marbella, inmobiliaria Vallarta, departamento lujo jalisco" />
+  <meta property="og:title" content="Departamento de Lujo — Puerto Vallarta" />
+  <meta property="og:description" content="Condominio Marbella · 92 m² · Vista al jardín · Amueblado · $4,600,520 MXN" />
+  <meta property="og:image" content="https://i.imgur.com/YgBaa1D.jpg" />
+  <title>Departamento de Lujo — Puerto Vallarta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-icon">◆</span>
+        <span class="brand-text">Marbella Vallarta</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#caracteristicas">Características</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#amenidades">Amenidades</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#inversion">Inversión</a></li>
+        <li><a href="#contacto" class="nav-cta">Contactar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg" style="background-image:url('https://i.imgur.com/YgBaa1D.jpg')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Condominio Marbella · Puerto Vallarta, Jalisco</p>
+      <h1 class="hero-title reveal">Vive el paraíso<br/><em>a tu manera</em></h1>
+      <p class="hero-sub reveal">Departamento de lujo totalmente amueblado · 92 m² · 2 recámaras</p>
+      <div class="hero-price reveal">
+        <span class="price-label">Precio de venta</span>
+        <span class="price-value">$4,600,520 <small>MXN</small></span>
+      </div>
+      <div class="hero-actions reveal">
+        <a href="#contacto" class="btn-gold">Solicitar información</a>
+        <a href="#galeria" class="btn-ghost">Ver galería</a>
+      </div>
+    </div>
+    <a href="#caracteristicas" class="hero-scroll" aria-label="Ir a características">
+      <span class="scroll-line"></span>
+      <span class="scroll-label">Descubrir</span>
+    </a>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat reveal">
+      <span class="stat-num">92</span>
+      <span class="stat-unit">m²</span>
+      <span class="stat-label">Superficie total</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <span class="stat-num">2</span>
+      <span class="stat-label">Recámaras</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <span class="stat-num">1</span>
+      <span class="stat-label">Baño completo</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <span class="stat-num">6</span>
+      <span class="stat-label">Amenidades</span>
+    </div>
+  </div>
+
+  <!-- CARACTERÍSTICAS -->
+  <section id="caracteristicas" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">El espacio</p>
+        <h2 class="section-title">Diseñado para<br/><em>el confort absoluto</em></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Interior amueblado</h3>
+          <p>Mobiliario de diseño seleccionado, listo para habitar desde el primer día.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Cocina integral</h3>
+          <p>Equipada con electrodomésticos de acero inoxidable y acabados de primera.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Condominio seguro</h3>
+          <p>Acceso controlado, vigilancia y áreas comunes exclusivas para residentes.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3>Entrega inmediata</h3>
+          <p>Disponible ahora. Sin esperas, sin obra, sin preocupaciones.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Balcón privado</h3>
+          <p>Terraza para disfrutar el clima tropical de Puerto Vallarta todo el año.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Ubicación estratégica</h3>
+          <p>A minutos de la zona Romántica, playas y centros comerciales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Galería</p>
+        <h2 class="section-title">Cada rincón,<br/><em>una historia</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--large reveal">
+          <img src="https://i.imgur.com/zesKvIL.jpg" alt="Entrada principal" loading="lazy" />
+          <div class="gallery-caption">Entrada principal</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/MDNWETs.jpg" alt="Jardines" loading="lazy" />
+          <div class="gallery-caption">Jardines</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/C4Qll1H.jpg" alt="Alberca" loading="lazy" />
+          <div class="gallery-caption">Alberca</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/F1g64TM.jpg" alt="Área de descanso" loading="lazy" />
+          <div class="gallery-caption">Área de descanso</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/dJNZ105.jpg" alt="Sala de estar" loading="lazy" />
+          <div class="gallery-caption">Sala de estar</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/UDpUDOr.jpg" alt="Comedor" loading="lazy" />
+          <div class="gallery-caption">Comedor</div>
+        </div>
+        <div class="gallery-item gallery-item--large reveal">
+          <img src="https://i.imgur.com/kcsuUeM.jpg" alt="Cocina integral" loading="lazy" />
+          <div class="gallery-caption">Cocina integral</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/1TSQG8C.jpg" alt="Interior" loading="lazy" />
+          <div class="gallery-caption">Interior</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/aPM6AwT.jpg" alt="Departamento Puerto Vallarta" loading="lazy" />
+          <div class="gallery-caption">Vista interior</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/7F3gcXw.jpg" alt="Departamento Puerto Vallarta" loading="lazy" />
+          <div class="gallery-caption">Espacio adicional</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://i.imgur.com/NPmb7HL.jpg" alt="Departamento Puerto Vallarta" loading="lazy" />
+          <div class="gallery-caption">Detalle</div>
+        </div>
+      </div>
+    </div>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">✕</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">‹</button>
+      <img id="lightboxImg" src="" alt="" />
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Siguiente">›</button>
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </section>
+
+  <!-- AMENIDADES -->
+  <section id="amenidades" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Amenidades</p>
+        <h2 class="section-title">Todo lo que necesitas,<br/><em>a pasos de tu puerta</em></h2>
+      </div>
+      <div class="amenidades-grid">
+        <div class="amenidad-card reveal">
+          <div class="amenidad-img"><img src="https://i.imgur.com/rveg2cO.jpg" alt="Alberca" loading="lazy" /></div>
+          <div class="amenidad-body">
+            <div class="amenidad-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12h20M2 12c0-4 2-6 4-6s4 2 4 6 2 6 4 6 4-2 4-6"/><path d="M2 18h20"/></svg></div>
+            <h3>Alberca</h3>
+            <p>Alberca de uso exclusivo para residentes, con área de camastros y descanso.</p>
+          </div>
+        </div>
+        <div class="amenidad-card reveal">
+          <div class="amenidad-img"><img src="https://i.imgur.com/nspoiM4.jpg" alt="Jardines" loading="lazy" /></div>
+          <div class="amenidad-body">
+            <div class="amenidad-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22V12M12 12C12 7 7 3 2 4M12 12C12 7 17 3 22 4"/></svg></div>
+            <h3>Jardines</h3>
+            <p>Áreas verdes cuidadas, ideales para relajarse y disfrutar el clima tropical.</p>
+          </div>
+        </div>
+        <div class="amenidad-card reveal">
+          <div class="amenidad-img"><img src="https://i.imgur.com/kcsuUeM.jpg" alt="Cocina integral" loading="lazy" /></div>
+          <div class="amenidad-body">
+            <div class="amenidad-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <h3>Cocina integral</h3>
+            <p>Equipada con todos los electrodomésticos y espacios de almacenamiento.</p>
+          </div>
+        </div>
+        <div class="amenidad-card reveal">
+          <div class="amenidad-img"><img src="https://i.imgur.com/dJNZ105.jpg" alt="Sala amueblada" loading="lazy" /></div>
+          <div class="amenidad-body">
+            <div class="amenidad-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 11v5a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1z"/><path d="M4 18v2M20 18v2M12 4v5"/></svg></div>
+            <h3>Totalmente amueblado</h3>
+            <p>Muebles de diseño listos para habitar, sin gastos adicionales.</p>
+          </div>
+        </div>
+        <div class="amenidad-card reveal">
+          <div class="amenidad-img"><img src="https://i.imgur.com/XyI0Xui.jpg" alt="Áreas comunes" loading="lazy" /></div>
+          <div class="amenidad-body">
+            <div class="amenidad-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Áreas comunes</h3>
+            <p>Espacios de convivencia diseñados para la comunidad de residentes.</p>
+          </div>
+        </div>
+        <div class="amenidad-card reveal">
+          <div class="amenidad-img"><img src="https://i.imgur.com/qr8WhiG.jpg" alt="Balcón privado" loading="lazy" /></div>
+          <div class="amenidad-body">
+            <div class="amenidad-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <h3>Balcón privado</h3>
+            <p>Terraza exclusiva con vista a los jardines del condominio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UBICACIÓN -->
+  <section id="ubicacion" class="section section-sand">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Ubicación</p>
+        <h2 class="section-title">En el corazón de<br/><em>Puerto Vallarta</em></h2>
+      </div>
+      <div class="ubicacion-layout">
+        <div class="ubicacion-info reveal">
+          <div class="location-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Condominios Marbella, Puerto Vallarta, Jalisco</span>
+          </div>
+          <ul class="location-perks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg><span>A 10 min del Malecón y zona centro</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg><span>Cercanía con Zona Romántica y playas</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg><span>Supermercados, restaurantes y hospitales cercanos</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg><span>Acceso rápido al aeropuerto internacional</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg><span>Zona con alto potencial de plusvalía</span></li>
+          </ul>
+          <a href="https://www.google.com/maps/place/Condominios+Marbella/@20.64155,-105.2354624,17z/data=!4m9!3m8!1s0x8421457688fdc387:0x9332aaad815d180b!5m2!4m1!1i2!8m2!3d20.6416805!4d-105.2345612!16s%2Fg%2F11b7f3f8y4?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" 
+             target="_blank" rel="noopener noreferrer" class="btn-gold">Ver en Google Maps</a>
+        </div>
+        <div class="map-container reveal">
+          <iframe title="Ubicación Condominios Marbella" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9!2d-105.2345612!3d20.6416805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842148b04dce42b5%3A0x6c7b9fe0c7f94b73!2sCondominios%20Marbella!5e0!3m2!1ses!2smx!4v1700000000000" 
+                  width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVERSIÓN -->
+  <section id="inversion" class="section section-dark parallax-section" style="background-image:url('https://i.imgur.com/F1g64TM.jpg')">
+    <div class="parallax-overlay"></div>
+    <div class="container" style="position:relative;z-index:2;">
+      <div class="section-header reveal">
+        <p class="section-eyebrow light">Por qué invertir</p>
+        <h2 class="section-title light">Una inversión que<br/><em>vale la pena</em></h2>
+      </div>
+      <div class="inversion-grid">
+        <div class="inversion-card reveal">
+          <span class="inversion-num">01</span>
+          <h3>Mercado inmobiliario en auge</h3>
+          <p>Puerto Vallarta figura entre los destinos con mayor crecimiento de plusvalía en México, impulsado por el turismo internacional.</p>
+        </div>
+        <div class="inversion-card reveal">
+          <span class="inversion-num">02</span>
+          <h3>Renta vacacional rentable</h3>
+          <p>Alta demanda en Airbnb y Booking generan retornos superiores al 8% anual en la zona.</p>
+        </div>
+        <div class="inversion-card reveal">
+          <span class="inversion-num">03</span>
+          <h3>Entrega inmediata</h3>
+          <p>Sin riesgo de obra. Sin esperas. Habita o renta desde el primer día con todos los beneficios.</p>
+        </div>
+      </div>
+      <div class="price-block reveal">
+        <div class="price-tag">
+          <p class="price-tag-label">Precio de oportunidad</p>
+          <p class="price-tag-value">$4,600,520 <span>MXN</span></p>
+        </div>
+        <a href="#contacto" class="btn-gold">Quiero información de financiamiento</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section section-sand">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Contacto</p>
+        <h2 class="section-title">Da el primer paso<br/><em>hoy mismo</em></h2>
+      </div>
+      <div class="contacto-layout">
+        <div class="contacto-info reveal">
+          <p class="contacto-desc">¿Tienes preguntas sobre el departamento, financiamiento o disponibilidad? Nuestro asesor especializado está listo para ayudarte.</p>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.33 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div><strong>Teléfono / WhatsApp</strong><span>331 185 4720</span></div>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><strong>Ubicación</strong><span>Condominios Marbella, Puerto Vallarta, Jalisco</span></div>
+          </div>
+          <a href="https://api.whatsapp.com/send/?phone=523311854720&text=Hola%2C+estoy+interesado+en+el+departamento+en+Puerto+Vallarta&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-full">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.013 22l4.974-1.305A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 11.999 2zm.001 18a8 8 0 0 1-4.03-1.094l-.29-.171-2.953.775.789-2.88-.188-.295A8 8 0 1 1 12 20z"/></svg>
+            Escribir por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo"><span>◆</span> Marbella Vallarta</p>
+        <p class="footer-tagline">Departamento de lujo en Puerto Vallarta, Jalisco.<br/>Vive o invierte en el paraíso del Pacífico mexicano.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#caracteristicas">Características</a>
+        <a href="#galeria">Galería</a>
+        <a href="#amenidades">Amenidades</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#inversion">Inversión</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-contact">
+        <p>331 185 4720</p>
+        <p>Puerto Vallarta, Jalisco, México</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Departamento Marbella Vallarta · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://api.whatsapp.com/send/?phone=523311854720&text=Hola%2C+estoy+interesado+en+el+departamento+en+Puerto+Vallarta&type=phone_number&app_absent=0" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.013 22l4.974-1.305A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 11.999 2zm.001 18a8 8 0 0 1-4.03-1.094l-.29-.171-2.953.775.789-2.88-.188-.295A8 8 0 1 1 12 20z"/></svg>
+    <span class="whatsapp-tooltip">¡Escríbenos!</span>
+  </a>
+
+  <!-- VOLVER ARRIBA -->
+  <button class="back-top" id="backTop" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
